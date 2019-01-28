@@ -51,7 +51,7 @@ namespace JPB.Shell.Example.Console
             while (input != "exit")
             {
                 //input = System.Console.ReadLine();
-                input = "math 1+1+(1+2+(3+3)*3";
+                input = "math 1+1+(1+2+(3+3)*3)";
                 if (string.IsNullOrEmpty(input))
                     continue;
 
